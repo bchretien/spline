@@ -3,7 +3,7 @@ CC=gcc
 all: run
 
 spline: spline.c
-	$(CC) -o spline spline.c -lGL -lGLU -lglut
+	$(CC) -o spline spline.c -lGL -lGLU -lglut -lm
 
 run: spline
 	./spline
